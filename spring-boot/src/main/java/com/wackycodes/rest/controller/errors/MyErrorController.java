@@ -1,4 +1,4 @@
-package com.wackycodes.rest.controller;
+package com.wackycodes.rest.controller.errors;
 
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.http.HttpStatus;
