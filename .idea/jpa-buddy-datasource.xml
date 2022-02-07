@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="f1be6ade-2064-40f2-990c-5487ef5744f4" name="rest" url="jdbc:mysql://localhost/rest?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.cj.jdbc.Driver" />
+      <data-source id="b13655b5-65f0-4e4b-9f4a-b93816a52254" name="bootapp" url="jdbc:hsqldb:mem:bootapp" driverClass="org.hsqldb.jdbc.JDBCDriver" />
+    </data-sources>
     <data-source-infos>
       <data-source-info id="" persistence-unit-name="Default" />
     </data-source-infos>

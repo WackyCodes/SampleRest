@@ -1,5 +1,5 @@
-package com.wackycodes.rest.interfaces;
-import com.wackycodes.rest.model.Book;
+package com.wackycodes.rest.repo;
+import com.wackycodes.rest.entity.Book;
 import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 

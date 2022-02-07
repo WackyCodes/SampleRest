@@ -1,12 +1,11 @@
 package com.wackycodes.rest.test;
 
-import com.wackycodes.rest.model.Book;
+import com.wackycodes.rest.entity.Book;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;

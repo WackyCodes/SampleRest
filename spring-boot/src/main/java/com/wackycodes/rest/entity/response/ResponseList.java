@@ -1,0 +1,19 @@
+package com.wackycodes.rest.entity.response;
+
+import java.util.List;
+
+public class ResponseList<T> extends RootResponse{
+    public ResponseList() {
+    }
+
+    private List<T> data;
+
+    public List<T> getData() {
+        return data;
+    }
+
+    public void setData(List<T> data) {
+        this.data = data;
+    }
+
+}

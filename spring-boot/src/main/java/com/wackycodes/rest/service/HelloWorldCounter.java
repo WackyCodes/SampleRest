@@ -1,6 +1,6 @@
-package com.wackycodes.rest.sample;
+package com.wackycodes.rest.service;
 
-import com.wackycodes.rest.model.Greeting;
+import com.wackycodes.rest.entity.Greeting;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

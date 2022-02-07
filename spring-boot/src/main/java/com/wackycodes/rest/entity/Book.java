@@ -1,4 +1,4 @@
-package com.wackycodes.rest.model;
+package com.wackycodes.rest.entity;
 
 import javax.persistence.*;
 

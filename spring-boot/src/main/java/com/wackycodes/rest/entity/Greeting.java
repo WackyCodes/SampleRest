@@ -1,4 +1,4 @@
-package com.wackycodes.rest.model;
+package com.wackycodes.rest.entity;
 
 public class Greeting {
 
